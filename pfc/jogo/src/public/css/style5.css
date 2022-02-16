@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html  {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: rgba(245, 245, 245, 0.973);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-prof {
+    width: 90%;
+    background-color: #2022ad;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 60%);
+}
+
+.menu-prof ul li{
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    margin-right: 140px;
+}
+
+.menu-prof a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.h1-logo {
+    display: flex;
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 155px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btn-sair-principal {
+    background-color: white;
+    border: none;
+    transition: background-color 1s;
+    color: #2022ad;
+    float: right;
+    margin-top: 11px;
+    margin-right: 20px;
+    align-items: flex-end;
+}
+
+.btn-sair-principal:hover {
+    background-color: red;
+    color: white;
+    border-color: red;
+    transition: 1s;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+}
+
+.primeira-coluna {
+    width: 150px;
+    height: 530px;
+    display: grid;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.titulo-p {
+    font-size: 30px;
+    font-style: none ;
+    margin-top: 00px;
+}
+
+em {
+    font-style: normal;
+}
+
+.box-1{
+    display: flex;
+    border-radius: 7px;
+    width: 390px;
+    justify-content: space-around;
+    height: 200px;
+    padding: 20px 0px 20px 0px;
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.box-4 {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+    width: 90px;
+    justify-content: space-around;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.num-acertos, .num-erros {
+    text-align: center;
+    margin-top: 22px;
+    font-weight: bold;
+}
+
+.num-acertos {
+    color: green;
+}
+
+.num-erros {
+    color: red;
+}
+
+.segunda-coluna-h {
+    display: flex;
+    width: 1000px;
+    height: 70px;
+    background-color: transparent;
+    justify-content: space-between;
+}
+
+.nome-aluno , .cronometro, .assunto{
+    width: 370px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+}
+
+.cronometro {
+    width: 170px;
+}
+
+.assunto {
+    width: 370px;
+}
+
+.terceira-coluna {
+    width: 1000px;
+    margin-top: 4px;
+    height: 120px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+    border-radius: 7px;
+}
+
+.quarta-coluna {
+    margin-top: 20px;
+    width: 1000px;
+    height: 240px;
+    background-color: transparent;
+    display: grid;
+    justify-content: space-around;
+}
+
+.respostas {
+    width: 1000px;
+    height: 70px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+    border-radius: 7px;
+    margin-top: 0px;
+}
+
+.ajuda-passar {
+    width: 1000px;
+    height: 70px;
+    background-color: transparent;
+    margin-top: 0px;
+}
+
+.btn-ajuda , .btn-passar , .btn-responder{
+    background-color: #2022ad;
+    border: none;
+    transition: background-color 1s;
+    color: #ffffff;
+    border: 1px solid #2022ad;
+    border-radius: 5px; 
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+}
+
+.btn-ajuda:hover, .btn-passar:hover {
+    background-color: #fff;
+    border: 1px solid #2022ad;
+    color: #2022ad;
+}
+
+.btn-responder:hover {
+    background-color: #191a5e;
+    color: white;
+    border-color: #2022ad;
+    transition: 1s;
+    border: 1px solid #2022ad;
+    box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+}
+
+.btn-passar {
+    float: right;
+}
+
+.btn-responder {
+    align-items: center;
+    justify-content: center;
+    margin-left: 210px;
+    width: 220px;
+    height: 55px;
+}
+ 
+.titulo-acerto{
+    text-align: center;
+}

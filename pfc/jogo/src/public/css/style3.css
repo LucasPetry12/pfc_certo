@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(245, 245, 245, 0.973);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-prof {
+    width: 90%;
+    background-color: #2022ad;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 60%);
+}
+
+.menu-prof ul li{
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    margin-right: 140px;
+}
+
+.menu-prof a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.h1-logo {
+    display: flex;
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 155px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btn-sair-principal {
+    background-color: white;
+    border: none;
+    transition: background-color 1s;
+    color: #2022ad;
+    float: right;
+    margin-top: 11px;
+    margin-right: 20px;
+    align-items: flex-end;
+}
+
+.btn-sair-principal:hover {
+    background-color: red;
+    color: white;
+    border-color: red;
+    transition: 1s;
+}
+
+.btn-salvar-questao,
+.btn-voltar-atividade {
+    background-color: #2022ad;
+    border: none;
+    transition: background-color 1s;
+    color: #ffffff;
+    border: 1px solid #2022ad;
+    border-radius: 5px; 
+    width: 160px;
+    height: 40px;
+    font-size: 22px;
+    margin-bottom: 0 auto;
+    box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+
+}
+
+.btn-salvar-questao:hover{
+    background-color: rgba(0, 255, 13, 0.836);
+    color: #ffffff;
+    border-color: rgba(0, 255, 13, 0.836);
+    transition: 1s;
+    border: 1px solid rgba(0, 255, 13, 0.836);
+}
+
+.btn-voltar-atividade:hover{
+    background-color: rgba(255, 0, 0, 0.836);
+    color: #ffffff;
+    border-color: #ff0000;
+    transition: 1s;
+    border: 1px solid #ff0000;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.primeira-coluna{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    width: 850px;
+    margin-left: 0px;
+    height: 522px;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.btn-baixo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 377px;
+    margin-right: 377px;
+}
+
+.form input, select, .textarea {
+    height: 45px;
+    width: 150%;
+    border: none;
+    background-color: #f7f7f7;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 15px;
+    align-items: center;
+    padding: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+input, select, .textarea{
+    outline: none;
+}
+
+.label-input {
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    border-radius: 10px;
+    align-self: center;
+    border: 0.09rem solid #a1a1a1;
+    width: 665px;
+    font-size: 15px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 9%);
+}
+
+.textarea {
+    padding: 10px;
+}
+
+.label-resposta {
+    width: 300px;
+}
+
+.flex {
+    display: flex;
+}
+
+.check {
+    margin-left: 0px;
+    width: 8px;
+    height: 5px;
+}
+
+.label-resposta-check{
+    width: 20px;
+    margin-top: 10px;
+}
+
+.desc, .desc2 {
+    margin: 10px;
+}
+
+.desc3{
+    margin-top: 20px;
+}
+
+
+
+
+
+.wrapper {
+    padding: 30px;
+    float: right;
+    margin-top: -233px;
+    margin-right: 190px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 32px;
+  }
+  
+  .form-group label {
+    padding-left: 10px;
+    cursor: pointer;
+  }
+  
+  .radio, .checkbox {
+    cursor: pointer;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #2022ad;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+  }
+  
+  .checkbox {
+    border-radius: 0;
+  }
+  
+  .radio:before, .checkbox:before {
+    content: '';
+    width: 26px;
+    height: 26px;
+    background: #2022ad;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+    position: absolute;
+  }
+  
+  .checkbox:before {
+    border-radius: 0;
+    background: transparent;
+    border: 4px solid #2022ad;
+    border-left: 0;
+    border-top: 0;
+    width: 7px;
+    height: 12px;
+    transform: rotate(45deg);
+    top: 2px;
+  }
+  
+  .radio:checked:before, .checkbox:checked:before {
+    opacity: 1;
+  }
+  
+  .radio:focus, .checkbox:focus {
+    box-shadow: 0 0 5px #2022ad;
+  }

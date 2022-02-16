@@ -1,0 +1,21 @@
+como rodar o projeto
+
+instalar extenção live sever
+instalar o pip ou atualizar para ultima versão
+instalar o flask
+instalar o flask-cors
+instalar mysql.connector
+instalar o pyjwt
+
+utilizando o comando
+
+pip install
+
+
+flask="*"
+flask-cors="*"
+mysql.connector="*"
+pyjwt="*"
+
+rode o arquivo app.py no terminal para abrir o servidor no navegador
+no arquivo index.html clique com o botão direito e clique em OPEN WHITH LIVE SERVER com a extenção

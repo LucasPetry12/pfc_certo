@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(245, 245, 245, 0.973);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-prof {
+    width: 90%;
+    background-color: #2022ad;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 60%);
+}
+
+.menu-prof ul li{
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    margin-right: 140px;
+}
+
+.menu-prof a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.h1-logo {
+    display: flex;
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 155px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btn-sair-principal {
+    background-color: white;
+    border: none;
+    transition: background-color 1s;
+    color: #2022ad;
+    float: right;
+    margin-top: 11px;
+    margin-right: 20px;
+}
+
+.btn-sair-principal:hover {
+    background-color: red;
+    color: white;
+    border-color: red;
+    transition: 1s;
+}
+
+.btn-criar-questao{
+    background-color: #2022ad;
+    border: none;
+    transition: background-color 1s;
+    color: #ffffff;
+    border: 1px solid #2022ad;
+    border-radius: 10px; 
+    width: 300px;
+    height: 60px;
+    font-size: 22px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+    float: left;
+}
+
+.btn-começar {
+    background-color: #2022ad;
+    border: none;
+    transition: background-color 1s;
+    color: #ffffff;
+    border: 1px solid #2022ad;
+    border-radius: 10px; 
+    width: 200px;
+    height: 60px;
+    font-size: 22px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+    float: right;
+}
+
+.btn-começar:hover {
+    background-color: #07ac3e;
+    color: #ffffff;
+    border-color: #07ac3e;
+    transition: 1s;
+    border: 1px solid #07ac3e;
+}
+
+.btn-criar-questao:hover{
+    background-color: rgba(236, 236, 236, 0.836);
+    color: #2022ad;
+    border-color: #2022ad;
+    transition: 1s;
+    border: 1px solid #2022ad;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.linha{
+    width: 5px;
+    height: 570px;
+    border-radius: 4px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.primeira-coluna{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 7px;
+    display: flex;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    width: 250px;
+    margin-left: 0px;
+    height: 450px;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.segunda-coluna{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    padding: 10px;
+    height: 653px ;
+    width: 1007px;
+
+    margin-right: 0px;
+}
+
+.grupo1, .grupo2{
+    background-color: rgba(245, 245, 245, 0.836);
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    padding: 10px;
+    width: 200px;
+}
+
+.grupos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomes1 {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.nomes2 {
+    float: right;
+    margin-right: 250px;
+    margin-top: 20px;
+}
+
+.botao {
+    margin-top: -80px;
+}

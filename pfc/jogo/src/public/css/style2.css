@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(245, 245, 245, 0.973);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+
+}
+
+/*INICIO MENU*/
+
+.menu-prof {
+    width: 90%;
+    background-color: #2022ad;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 60%);
+}
+
+.menu-prof ul li{
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    margin-right: 140px;
+}
+
+.menu-prof a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.h1-logo {
+    display: flex;
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin: 12px;
+    cursor: pointer;
+}
+
+/*FINAL MENU*/
+
+.vermelho {
+    color: red;
+}
+
+/*BOTOES*/
+
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 155px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btn-sair-principal {
+    background-color: white;
+    border: none;
+    transition: background-color 42742724754725274s;
+    color: #2022ad;
+    float: right;
+    margin-top: 11px;
+    margin-right: 20px;
+}
+
+.btn-sair-principal:hover {
+    background-color: red;
+    color: white;
+    border-color: red;
+    transition: 1s;
+}
+
+.btn-criar-atividade {
+    background-color: #2022ad;
+    border: none;
+    transition: background-color 1s;
+    color: #ffffff;
+    border: 1px solid #2022ad;
+    border-radius: 50px;
+}
+
+.btn-criar-atividade:hover {
+    background-color: rgb(255, 255, 255);
+    color: #2022ad;
+    border-color: #2022ad;
+    transition: 1s;
+    border: 1px solid #2022ad;
+}
+
+.btn-salvar-conta{
+    background-color: #2022ad;
+    border: none;
+    transition: background-color 1s;
+    color: #ffffff;
+    border: 1px solid #2022ad;
+    border-radius: 50px;
+    width: 90px;
+}
+
+.btn-salvar-conta:hover {
+    background-color: rgb(255, 255, 255);
+    color: #2022ad;
+    border-color: #2022ad;
+    transition: 1s;
+    border: 1px solid #2022ad;
+}
+
+/*FINAL BOTOES*/
+
+.container {
+    max-width: 1725px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.creditos{
+    margin-top: 20px;
+}
+
+.content{
+    grid-gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.form input, select {
+    height: 45px;
+    width: 150%;
+    border: none;
+    background-color: #f7f7f7;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 15px;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+input, select{
+    outline: none;
+}
+
+.label-input {
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    border-radius: 10px;
+    align-self: center;
+    border: 0.09rem solid #a1a1a1;
+    width: 265px;
+    font-size: 15px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 9%);
+}
+
+/*CRIAR ATIVIDADE DO JOGO*/
+
+.criar-atividades,
+.regras-jogo,
+.historicos,
+.creditos,
+.sua-conta,
+.funcionalidades{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    padding: 10px;
+    width: 350px;
+}
+
+/*REGRAS DO JOGO*/
+
+.texto-regras {
+    text-align: left;
+}
+
+.margin-descricao-regras{
+    margin-bottom: 14px;
+}
+
+/*CREDITOS DO JOGO*/
+
+.texto-creditos{
+    text-align: left;
+}
+
+/*TEXTOS E DESCRIÇÕES*/
+
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    text-align: center;
+    color: rgb(63, 63, 63);
+}
+
+.desc1 {
+    margin-top: 10px;
+}
+
+.desc2{
+    font-weight: bold;
+    text-align: left;
+}
+
+.desc3 {
+    margin-top: 10px;
+}
+
+.desc4 {
+    margin-bottom: 10px;
+}
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.texto-regras{
+    margin-bottom: 5px;
+}
+
+.radio{
+    text-align: center;
+}
+
+/*ESQUECEU SENHA*/
+
+.containersenha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.973);
+}
+
+.first-contentsenha{
+    background-color: #2022ad;
+    border-radius: 15px;
+    width: 400px;
+    height: 55%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 25px rgb(0 0 0 / 55%);
+}
+
+.textosenha{
+    color: white;
+    margin-bottom: 14px;
+}
+
+.salvarsenha{
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: background-color .5s;
+    margin-top: 20px;
+}
+
+.salvarsenha:hover {
+    background-color: #fff;
+    color: #2022ad;
+}
+
+.voltarinicio {
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: background-color .5s;
+    margin-top: 50px;
+}
+
+.voltarinicio:hover {
+    background-color: #fff;
+    color: #2022ad;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 20px;
+    color: white;
+}
